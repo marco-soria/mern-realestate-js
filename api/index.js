@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.listen(27017, () => {
-  console.log('Server is running on port 3000');
+  console.log('Server is running');
     }
 );
 
