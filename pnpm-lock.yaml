@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@types/node':
+        specifier: ^22.8.6
+        version: 22.18.10
       bcrypt:
         specifier: ^6.0.0
         version: 6.0.0
@@ -26,6 +29,9 @@ importers:
       mongoose:
         specifier: ^8.8.1
         version: 8.19.1
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
     devDependencies:
       '@types/bcrypt':
         specifier: ^5.0.2
@@ -39,18 +45,12 @@ importers:
       '@types/jsonwebtoken':
         specifier: ^9.0.7
         version: 9.0.10
-      '@types/node':
-        specifier: ^22.8.6
-        version: 22.18.10
       nodemon:
         specifier: ^3.1.7
         version: 3.1.10
       tsx:
         specifier: ^4.19.2
         version: 4.20.6
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
 
 packages:
 
